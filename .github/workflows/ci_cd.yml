@@ -57,4 +57,4 @@ jobs:
         run: |
           docker build -t "${DOCKERHUB_USERNAME}/backend_flask:latest" .
           echo "${DOCKERHUB_TOKEN}" | docker login -u "${DOCKERHUB_USERNAME}" --password-stdin
-          docker push "${DOCKERHUB_USERNAME}/backend_DockerHub:latest"
+          docker push "${DOCKERHUB_USERNAME}/backend_backend_flask:latest"
